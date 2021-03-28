@@ -59,7 +59,7 @@ namespace dotnetCore_WebAPI_ActuallyBrandNew.Controllers
         }
 
         [HttpPost]
-        [Route("/api/member")]
+        [Route("/api/member/post")]
         public List<Member> AddNewMember(Member member)
         {
             return _memberHandler.AddNewMember(member);
